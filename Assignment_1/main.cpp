@@ -89,7 +89,8 @@ void GenerateReport(Graduate grads[], int year, int students) {
     }
     cout<<"Number of Working Graduates: "<<workingCount<<endl;
     cout<<"Number of Non-Working Graduates: "<<nonWorkingCount<<endl;
-    topStudent.displayDetails();cout << "% of Graduates This Year That Are Non-Working: " << (nonWorkingCount * 100.0 / students) << "%" << endl;
+    topStudent.displayDetails();
+    cout << "% of Graduates This Year That Are Non-Working: " << (nonWorkingCount * 100.0 / students) << "%" << endl;
     cout << "% of First Divisions: "<< (firstDivCount * 100.0 / students) << "%" << endl;
 }
 int main() {
