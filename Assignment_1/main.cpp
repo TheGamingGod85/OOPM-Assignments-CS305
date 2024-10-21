@@ -63,7 +63,7 @@ public:
     bool getEmploymentStatus() {
         return isEmployed;
     }
-    void displayDetails() {
+    void displayDetails() { cout<<"Top Student: "<<endl;
         cout<<"Name: "<<name<<endl;
         cout<<"Age: "<<age<<endl;
         cout<<"Subject: "<<subject<<endl;
