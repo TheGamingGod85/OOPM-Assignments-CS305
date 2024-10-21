@@ -60,9 +60,6 @@ public:
                 break;
         }
     }
-    string getSubject() {
-        return subject;
-    }
     bool getEmploymentStatus() {
         return isEmployed;
     }
