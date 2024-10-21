@@ -105,6 +105,7 @@ int main() {
         people[i].getDetails();
         people[i].getAcademic();
         people[i].getEmployment();
+        cout<<endl;
     }
     GenerateReport(people, sessionYear, studentNum);
     return 0;
