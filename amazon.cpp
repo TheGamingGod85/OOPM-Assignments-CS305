@@ -22,14 +22,11 @@ int** generateSpiral(int n) {
         spiral[i] = new int[n];
     }
 
-    // Defining the directions order and offsets: Right, Down, Left, Up
     int directions[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
-    // Adjusting the center for even inputs
     int center = n % 2 == 0 ? n / 2 - 1 : n / 2;
     int row = center, col = center, num = 1;
 
-    // Expanding spiral pattern
     int segmentLength = 1;
     int dir = 0;
     int segmentCounter = 0;
