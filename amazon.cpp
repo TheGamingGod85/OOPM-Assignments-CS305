@@ -10,9 +10,7 @@ void printMatrix(int** matrix, int n, int width);
 void generateAndPrintSpiral(int n);
 
 int main() {
-    generateAndPrintSpiral(5);
-    generateAndPrintSpiral(6);
-    generateAndPrintSpiral(12);
+    generateAndPrintSpiral(3);
     return 0;
 }
 
