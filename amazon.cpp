@@ -66,14 +66,11 @@ void printMatrix(int** matrix, int n, int width) {
 void generateAndPrintSpiral(int n) {
     int** spiral = generateSpiral(n);
 
-    // Computing the width needed for the largest number
     int maxNumber = n * n;
     int width = to_string(maxNumber).length();
 
-    // Printing the matrix
     printMatrix(spiral, n, width);
 
-    // Freeing memory
     for (int i = 0; i < n; i++) {
         delete[] spiral[i];
     }
